@@ -1,0 +1,350 @@
+
+
+
+Output from MrModeltest version 2.3 
+
+MrModeltest is written by Johan Nylander and is a modified version of Modeltest version 3.6 (Copyright David Posada, Universidad de Vigo).
+
+Reference:
+"Nylander, J.A.A. 2004. MrModeltest 2.3. Program distributed by the author. Evolutionary Biology Centre, Uppsala University."
+
+Contact:
+johan.nylander@ebc.uu.se.
+
+Credits: David Posada is thanked for supplying the Modeltest code.
+______________________________________________________________________
+
+Sun Sep 17 10:25:39 2023
+
+Input format: Paup matrix file 
+
+
+** Log Likelihood scores **
+            			+I		+G		+I+G
+JC         =	3119.5481	3067.5068	3067.3574	3065.8049
+F81        =	3103.2690	3048.9463	3047.8611	3046.6096
+K80        =	3086.3835	3029.9045	3027.3347	3026.2886
+HKY        =	3073.2334	3016.0593	3012.8374	3011.9685
+SYM        =	3070.8994	3016.2588	3008.8276	3008.5579
+GTR        =	3064.3206	3008.9412	3001.9451	3001.6682
+
+
+
+Run settings
+
+ Using the standard AIC (not the AICc)
+ Not using branch lengths as parameters
+ Running all four hierarchies for the hLRT
+ Printed parameter values are from the hLRT1 hierarchy
+
+
+
+---------------------------------------------------------------
+*                                                             *
+*         HIERARCHICAL LIKELIHOOD RATIO TESTS (hLRTs)         *
+*                                                             *
+---------------------------------------------------------------
+
+ Equal base frequencies
+   Null model = JC       		  -lnL0 = 3119.5481
+   Alternative model = F81      	  -lnL1 = 3103.2690
+   2(lnL1-lnL0) =   32.5581		      df = 3 
+   P-value = <0.000001
+ Ti=Tv
+   Null model = F81      		  -lnL0 = 3103.2690
+   Alternative model = HKY      	  -lnL1 = 3073.2334
+   2(lnL1-lnL0) =   60.0713		      df = 1 
+   P-value = <0.000001
+ Unequal Tv and unequal Ti
+   Null model = HKY      		  -lnL0 = 3073.2334
+   Alternative model = GTR      	  -lnL1 = 3064.3206
+   2(lnL1-lnL0) =   17.8257		      df = 4 
+   P-value =  0.001335
+ Equal rates among sites
+   Null model = GTR      		  -lnL0 = 3064.3206
+   Alternative model = GTR+G    	  -lnL1 = 3001.9451
+   2(lnL1-lnL0) =  124.7510		      df = 1 
+   Using mixed chi-square distribution
+   P-value = <0.000001
+ No Invariable sites
+   Null model = GTR+G    		  -lnL0 = 3001.9451
+   Alternative model = GTR+I+G  	  -lnL1 = 3001.6682
+   2(lnL1-lnL0) =    0.5537		      df = 1 
+   Using mixed chi-square distribution
+   P-value =  0.228403
+
+
+ ** Hierarchical Likelihood Ratio Tests (using hLRT2) **
+
+ Equal base frequencies
+   Null model = SYM+I+G  		  -lnL0 = 3008.5579
+   Alternative model = GTR+I+G  	  -lnL1 = 3001.6682
+   2(lnL1-lnL0) =   13.7793		      df = 3 
+   P-value =  0.003221
+ Unequal Tv and unequal Ti
+   Null model = HKY+I+G  		  -lnL0 = 3011.9685
+   Alternative model = GTR+I+G  	  -lnL1 = 3001.6682
+   2(lnL1-lnL0) =   20.6006		      df = 4 
+   P-value =  0.000380
+ Equal rates among sites
+   Null model = GTR+I    		  -lnL0 = 3008.9412
+   Alternative model = GTR+I+G  	  -lnL1 = 3001.6682
+   2(lnL1-lnL0) =   14.5459		      df = 1 
+   Using mixed chi-square distribution
+   P-value =  0.000068
+ No Invariable sites
+   Null model = GTR+G    		  -lnL0 = 3001.9451
+   Alternative model = GTR+I+G  	  -lnL1 = 3001.6682
+   2(lnL1-lnL0) =    0.5537		      df = 1 
+   Using mixed chi-square distribution
+   P-value =  0.228403
+
+
+ ** Hierarchical Likelihood Ratio Tests (using hLRT3) **
+
+ Equal rates among sites
+   Null model = JC       		  -lnL0 = 3119.5481
+   Alternative model = JC+G     	  -lnL1 = 3067.3574
+   2(lnL1-lnL0) =  104.3813		      df = 1 
+   Using mixed chi-square distribution
+   P-value = <0.000001
+ No Invariable sites
+   Null model = JC+G     		  -lnL0 = 3067.3574
+   Alternative model = JC+I+G   	  -lnL1 = 3065.8049
+   2(lnL1-lnL0) =    3.1050		      df = 1 
+   Using mixed chi-square distribution
+   P-value =  0.039027
+ Ti=Tv
+   Null model = JC+G     		  -lnL0 = 3067.3574
+   Alternative model = K80+G    	  -lnL1 = 3027.3347
+   2(lnL1-lnL0) =   80.0454		      df = 1 
+   P-value = <0.000001
+ Unequal Tv and unequal Ti
+   Null model = K80+G    		  -lnL0 = 3027.3347
+   Alternative model = SYM+G    	  -lnL1 = 3008.8276
+   2(lnL1-lnL0) =   37.0142		      df = 4 
+   P-value = <0.000001
+ Equal base frequencies
+   Null model = SYM+G    		  -lnL0 = 3008.8276
+   Alternative model = GTR+G    	  -lnL1 = 3001.9451
+   2(lnL1-lnL0) =   13.7651		      df = 3 
+   P-value =  0.003243
+
+
+ ** Hierarchical Likelihood Ratio Tests (using hLRT4) **
+
+ Equal rates among sites
+   Null model = GTR+I    		  -lnL0 = 3008.9412
+   Alternative model = GTR+I+G  	  -lnL1 = 3001.6682
+   2(lnL1-lnL0) =   14.5459		      df = 1 
+   Using mixed chi-square distribution
+   P-value =  0.000068
+ No Invariable sites
+   Null model = GTR+G    		  -lnL0 = 3001.9451
+   Alternative model = GTR+I+G  	  -lnL1 = 3001.6682
+   2(lnL1-lnL0) =    0.5537		      df = 1 
+   Using mixed chi-square distribution
+   P-value =  0.228403
+ Unequal Tv and unequal Ti
+   Null model = HKY+G    		  -lnL0 = 3012.8374
+   Alternative model = GTR+G    	  -lnL1 = 3001.9451
+   2(lnL1-lnL0) =   21.7847		      df = 4 
+   P-value =  0.000221
+ Equal base frequencies
+   Null model = SYM+G    		  -lnL0 = 3008.8276
+   Alternative model = GTR+G    	  -lnL1 = 3001.9451
+   2(lnL1-lnL0) =   13.7651		      df = 3 
+   P-value =  0.003243
+
+
+ --
+ ATTENTION: The choice based on hLRT can be sensitive for the specific
+            hierarchy used. If selected models differ, User need to
+            make the choice!
+
+            Model selected by hLRT (default): GTR+G
+            Model selected by hLRT2:          GTR+G
+            Model selected by hLRT3:          GTR+G
+            Model selected by hLRT4:          GTR+G
+ --
+
+
+ Model selected: GTR+G
+   -lnL = 	3001.9451
+    K = 	9
+   Base frequencies: 
+     freqA = 	 0.2213
+     freqC = 	 0.2909
+     freqG = 	 0.2230
+     freqT = 	 0.2649
+   Substitution model: 
+     Rate matrix
+     R(a) [A-C] = 	 1.4708
+     R(b) [A-G] = 	 2.3672
+     R(c) [A-T] = 	 1.8370
+     R(d) [C-G] = 	 0.4686
+     R(e) [C-T] = 	 4.2809
+     R(f) [G-T] = 	 1.0000
+   Among-site rate variation
+     Proportion of invariable sites = 0
+     Gamma distribution shape parameter = 0.5259
+
+
+--
+
+PAUP* Commands Block: If you want to implement the previous estimates as likelihod settings in PAUP*, attach the next block of commands after the data in your PAUP file:
+
+[!
+Likelihood settings from best-fit model (GTR+G) selected by hLRT in MrModeltest 2.3
+]
+BEGIN PAUP;
+	Lset  Base=(0.2213 0.2909 0.2230)  Nst=6  Rmat=(1.4708 2.3672 1.8370 0.4686 4.2809)  Rates=gamma  Shape=0.5259  Pinvar=0;
+END;
+
+--
+
+
+MrBayes Commands Block: If you want to implement a "best" model in MrBayes, attach the next block of commands after the data in your NEXUS file:
+(NOTE: In a Bayesian analysis, the Markov chain is integrating over the uncertainty in parameter values. Thus, you usually do NOT want to use the parameter values estimated by the commands in MrModeltest or Modeltest. You rather want to specify the general "form" of the model (such as nst=1 etc.)
+
+[!
+MrBayes settings for the best-fit model (GTR+G) selected by hLRT in MrModeltest 2.3
+]
+BEGIN MRBAYES;
+
+	Lset  nst=6  rates=gamma;
+	Prset statefreqpr=dirichlet(1,1,1,1);
+END;
+
+--
+
+
+
+
+---------------------------------------------------------------
+*                                                             *
+*             AKAIKE INFORMATION CRITERION (AIC)              *
+*                                                             *
+---------------------------------------------------------------
+
+
+ Model selected: GTR+G
+   -lnL = 	3001.9451
+    K = 	9
+    AIC = 	6021.8901
+
+   Base frequencies: 
+     freqA = 	 0.2213
+     freqC = 	 0.2909
+     freqG = 	 0.2230
+     freqT = 	 0.2649
+   Substitution model: 
+     Rate matrix
+     R(a) [A-C] = 	 1.4708
+     R(b) [A-G] = 	 2.3672
+     R(c) [A-T] = 	 1.8370
+     R(d) [C-G] = 	 0.4686
+     R(e) [C-T] = 	 4.2809
+     R(f) [G-T] = 	 1.0000
+   Among-site rate variation
+     Proportion of invariable sites = 0
+     Gamma distribution shape parameter = 0.5259
+
+
+--
+
+PAUP* Commands Block: If you want to implement the previous estimates as likelihod settings in PAUP*, attach the next block of commands after the data in your PAUP file:
+
+[!
+Likelihood settings from best-fit model (GTR+G) selected by AIC in MrModeltest 2.3
+]
+BEGIN PAUP;
+	Lset  Base=(0.2213 0.2909 0.2230)  Nst=6  Rmat=(1.4708 2.3672 1.8370 0.4686 4.2809)  Rates=gamma  Shape=0.5259  Pinvar=0;
+END;
+
+--
+
+
+MrBayes Commands Block: If you want to implement a "best" model in MrBayes, attach the next block of commands after the data in your NEXUS file:
+(NOTE: In a Bayesian analysis, the Markov chain is integrating over the uncertainty in parameter values. Thus, you usually do NOT want to use the parameter values estimated by the commands in MrModeltest or Modeltest. You rather want to specify the general "form" of the model (such as nst=1 etc.)
+
+[!
+MrBayes settings for the best-fit model (GTR+G) selected by AIC in MrModeltest 2.3
+]
+BEGIN MRBAYES;
+
+	Lset  nst=6  rates=gamma;
+	Prset statefreqpr=dirichlet(1,1,1,1);
+END;
+
+--
+
+
+ ** MODEL SELECTION UNCERTAINTY : Akaike Weights **
+
+Model		-lnL		K	 AIC		 delta		Weight		CumWeight
+-------------------------------------------------------------------------------------------------
+GTR+G     	 3001.9451	 9	 6021.8901	   0.0000	  0.6585	 0.6585
+GTR+I+G   	 3001.6682	10	 6023.3364	   1.4463	  0.3195	 0.9780
+SYM+G     	 3008.8276	 6	 6029.6553	   7.7651	  0.0136	 0.9916
+SYM+I+G   	 3008.5579	 7	 6031.1157	   9.2256	  0.0065	 0.9981
+HKY+G     	 3012.8374	 5	 6035.6748	  13.7847	  0.0007	 0.9988
+GTR+I     	 3008.9412	 9	 6035.8823	  13.9922	  0.0006	 0.9994
+HKY+I+G   	 3011.9685	 6	 6035.9370	  14.0469	  0.0006	 1.0000
+HKY+I     	 3016.0593	 5	 6042.1187	  20.2285	2.67e-005	 1.0000
+SYM+I     	 3016.2588	 6	 6044.5176	  22.6274	8.04e-006	 1.0000
+K80+I+G   	 3026.2886	 3	 6058.5771	  36.6870	7.11e-009	 1.0000
+K80+G     	 3027.3347	 2	 6058.6694	  36.7793	6.79e-009	 1.0000
+K80+I     	 3029.9045	 2	 6063.8091	  41.9189	5.20e-010	 1.0000
+F81+I+G   	 3046.6096	 5	 6103.2192	  81.3291	1.44e-018	 1.0000
+F81+G     	 3047.8611	 4	 6103.7222	  81.8320	1.12e-018	 1.0000
+F81+I     	 3048.9463	 4	 6105.8926	  84.0024	3.78e-019	 1.0000
+JC+I+G    	 3065.8049	 2	 6135.6099	 113.7197	1.33e-025	 1.0000
+JC+G      	 3067.3574	 1	 6136.7148	 114.8247	7.67e-026	 1.0000
+JC+I      	 3067.5068	 1	 6137.0137	 115.1235	6.60e-026	 1.0000
+GTR       	 3064.3206	 8	 6144.6411	 122.7510	1.46e-027	 1.0000
+SYM       	 3070.8994	 5	 6151.7988	 129.9087	4.07e-029	 1.0000
+HKY       	 3073.2334	 4	 6154.4668	 132.5767	1.07e-029	 1.0000
+K80       	 3086.3835	 1	 6174.7671	 152.8770	4.19e-034	 1.0000
+F81       	 3103.2690	 3	 6212.5381	 190.6479	2.63e-042	 1.0000
+JC        	 3119.5481	 0	 6239.0962	 217.2061	0.00e+000	 1.0000
+-------------------------------------------------------------------------------------------------
+-lnL:		negative log likelihood
+ K:		number of estimated (free) parameters
+ AIC:		Akaike Information Criterion
+ delta:		Akaike difference
+ weight:	Akaike weight
+ cumWeight:	cumulative Akaike weight
+
+
+
+* MODEL AVERAGING AND PARAMETER IMPORTANCE (using Akaike Weights)
+  Including all 24 models
+
+					Model-averaged
+Parameter		Importance	estimates
+----------------------------------------------------
+fA			0.9799		     0.2213
+fC			0.9799		     0.2909
+fG			0.9799		     0.2229
+fT			0.9799		     0.2648
+TiTv			0.0013		     1.4490
+rAC			0.9987		     1.4662
+rAG			0.9987		     2.3566
+rAT			0.9987		     1.8273
+rCG			0.9987		     0.4726
+rCT			0.9987		     4.2697
+pinv(I)			0.0006		     0.3766
+alpha(G)		0.6727		     0.5259
+pinv(I+IG)		0.3273		     0.1677
+alpha(G+IG)		0.9994		     0.6313
+----------------------------------------------------
+Note: values have been rounded.
+ (I):		averaged using only +I models
+ (G):		averaged using only +G models
+ (I+IG):	averaged using both +I and +I+G models
+ (G+IG):	averaged using both +G and +I+G models
+
+_________________________________________________________________________
+Time processing: 0.002 seconds
+If you need help type '-?' or '-h' in the command line of the program
